@@ -35,9 +35,11 @@
     "@deku-scrubs/style": "git://github.com/deku-scrubs/style",
     "style": "git://github.com/weo-edu/style"
   },
-  "browserify": [
-    [
-      "babelify"
+  "browserify": {
+    "transform": [
+      [
+        "babelify"
+      ]
     ]
-  ]
+  },
 }
