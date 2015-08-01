@@ -1,5 +1,5 @@
 {
-  "name": "text-input",
+  "name": "@deku-scrubs/text-input",
   "version": "0.1.0",
   "description": "TextInput component for deku",
   "main": "index.js",
