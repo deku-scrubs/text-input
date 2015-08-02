@@ -19,12 +19,7 @@ const defaultProps = {
  */
 function render (component) {
   const {props} = component
-  const {onChange, placeholder, type, messages: Messages, errorKey} = props
-
-  let messages = null
-  if (Messages && errorKey) {
-    messages = <Messages errorKey={errorKey} />
-  }
+  const {onChange, placeholder, type, error} = props
 
   return (
     <Block style={props.style}>
@@ -33,7 +28,7 @@ function render (component) {
         props={{type: type, placeholder: placeholder, onChange: handleChange}}
         style={props.inputStyle}>
       </Style>
-      {messages}
+      {error}
     </Block>
   )
 
