@@ -21,7 +21,20 @@
   "bugs": {
     "url": "https://github.com/deku-components/text-input/issues"
   },
+  "standard": {
+    "global": [
+      "describe",
+      "it",
+      "beforeEach",
+      "afterEach",
+      "before",
+      "after"
+    ]
+  },
   "homepage": "https://github.com/deku-components/text-input",
+  "peerDependencies": {
+    "@deku-scrubs/style": "git://github.com/deku-scrubs/style"
+  },
   "devDependencies": {
     "@deku-scrubs/standard": "git://github.com/deku-scrubs/standard",
     "babelify": "^6.1.3",
@@ -30,10 +43,6 @@
     "mochify": "^2.10.0",
     "phantomjs": "^1.9.17",
     "spy": "^0.1.3"
-  },
-  "dependencies": {
-    "@deku-scrubs/style": "git://github.com/deku-scrubs/style",
-    "style": "git://github.com/weo-edu/style"
   },
   "browserify": {
     "transform": [
