@@ -26,7 +26,7 @@ describe('text-input', function () {
     assert(css.indexOf('color:blue') !== -1)
   })
 
-  function create(component) {
+  function create (component) {
     render(tree(component), container)
   }
 })
