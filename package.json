@@ -33,7 +33,9 @@
   },
   "homepage": "https://github.com/deku-components/text-input",
   "dependencies": {
-    "@deku-scrubs/style": "git://github.com/deku-scrubs/style"
+    "@deku-scrubs/style": "git://github.com/deku-scrubs/style",
+    "deku": "^0.5.0",
+    "virtual-element": "^1.1.1"
   },
   "devDependencies": {
     "@deku-scrubs/standard": "git://github.com/deku-scrubs/standard",
