@@ -4,7 +4,7 @@
 import assert from 'assert'
 import empty from 'component-empty'
 import {tree, render} from 'deku'
-import element from 'magic-virtual-element'
+import element from 'virtual-element'
 import TextInput from '..'
 
 /**
