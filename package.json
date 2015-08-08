@@ -1,6 +1,6 @@
 {
   "name": "@deku-scrubs/text-input",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "TextInput component for deku",
   "main": "lib/index.js",
   "scripts": {
