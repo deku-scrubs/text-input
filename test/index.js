@@ -4,7 +4,7 @@
 import assert from 'assert'
 import empty from 'component-empty'
 import {tree, render} from 'deku'
-import element from 'virtual-element'
+import element from 'magic-virtual-element'
 import TextInput from '..'
 
 /**
@@ -24,7 +24,7 @@ describe('text-input', function () {
   it('should allow styling of the underlying input element', function () {
     create(<TextInput inputStyle={{color: 'blue'}} />)
     var css = container.querySelector('input').attributes.style.value
-    assert(css.indexOf('color:blue') !== -1)
+    assert(css.indexOf('color: blue') !== -1)
   })
 
   function create (component) {
