@@ -33,8 +33,10 @@
   },
   "homepage": "https://github.com/deku-components/text-input",
   "dependencies": {
-    "deku": "^0.5.0",
-    "magic-virtual-element": "^1.0.4"
+    "magic-virtual-element": "^1.0.4",
+    "object-pick": "^0.1.1",
+    "validation-attrs": "^0.1.0",
+    "validity-keys": "^0.1.1"
   },
   "devDependencies": {
     "@deku-scrubs/standard": "git://github.com/deku-scrubs/standard",
